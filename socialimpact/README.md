@@ -1,4 +1,3 @@
-<script src="processing.min.js"></script>
 # Social Impact Therory
 
 <p>
