@@ -7,3 +7,5 @@ This demo was developed in <a href="https://processing.org">Processing</a> and r
 with <a href="http://processingjs.org">Processing.js</a>. Download the <a href="socialimpact.pde">source code</a>.
 </p>
 
+View demo at http://kingmolnar.github.io/SocialScienceSimulations/socialimpact/
+

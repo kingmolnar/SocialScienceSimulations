@@ -10,9 +10,33 @@
     <script src="processing.min.js"></script>
     <h1>Social Impact Therory</h1>
     <p>
-        <a href="">Bibb Latan&eacute;</a>
+        This demo depicts a simplistic model of agents' sentiment change based on the state of
+        their immediate neighbors. The <a fred="https://scholar.google.com/scholar?hl=en&q=social+impact+theory&btnG=&as_sdt=1%2C11&as_sdtp=">Social Impact Theory</a>
+        was first introduced by social psycologist
+        <a href="https://en.wikipedia.org/wiki/Bibb_Latané">Bibb Latan&eacute;</a>.
     </p>
     <canvas data-processing-sources="socialimpact.pde"></canvas>
+    <h4>What you see ...</h4>
+    <ol>
+        <li>The graphics shows 2,500 agents aligned on
+            a grid with periodic boundary conditions (i.e. ona torus).</li>
+        <li>Each agent is in one of two states (red or blue) at any given time.</li>
+        <li>The pobability to swicth states depends on the number
+            of immediate neighbors in the opposite state.</li>
+        <li>The color saturation indicates the diversity of the neighbors' states.
+            Hereby, saturated colors mean "all agree", faded "all disagree".</li>
+        <!-- <li></li> -->
+
+    </ol>
+    <h4>How to ...</h4>
+    <ol>
+        <li>Click on the graphic to start the simulation.</li>
+        <li>Click again to pause.</li>
+        <li>Press any key (while the graphic is on focus) to reset the initial population.</li>
+        <!-- <li></li>
+        <li></li> -->
+
+    </ol>
     <p>
         This demo was developed in <a href="https://processing.org">Processing</a> and runs in this browser
         with <a href="http://processingjs.org">Processing.js</a>. Download the <a href="socialimpact.pde">source code</a>.
